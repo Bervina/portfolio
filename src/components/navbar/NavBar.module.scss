@@ -1,0 +1,41 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #171718;
+  letter-spacing: normal;
+  height: 70px;
+  border-bottom: 1px solid gray ;
+}
+
+.logo{
+  margin-left: 10px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.li{
+  padding-inline: 10px;
+}
+
+.navLink{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navLinkActive{
+  color: #5c62ec;
+  font-size: 20px;
+  font-weight: bold;
+
+}
